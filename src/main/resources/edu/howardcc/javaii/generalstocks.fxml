@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="edu.howardcc.javaii.GeneralStocksController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <TableView fx:id="stocksTableView" layoutX="14" layoutY="14" prefHeight="372" prefWidth="572">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Stock Name" prefWidth="150" />
+                <TableColumn fx:id="symbolColumn" text="Stock Symbol" prefWidth="100" />
+                <TableColumn fx:id="priceColumn" text="Current Price" prefWidth="150" />
+                <TableColumn fx:id="changeColumn" text="Percentage Change" prefWidth="150" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
